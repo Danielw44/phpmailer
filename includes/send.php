@@ -21,7 +21,7 @@ error_reporting(E_ALL);
 	$email->Subject   = 'Website Enquiry from'. $name;
 	$email->Body      =  $message;
 //    $email->AddAddress( 'jobs@physio.co.uk' );
-	$email->AddAddress( 'daniel@physio123.co.uk');
+	$email->AddAddress( 'me@danielworthington.co.uk');
 
 	if($email->send()){
         $mail->send();
